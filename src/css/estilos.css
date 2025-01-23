@@ -7,7 +7,7 @@ body{
     font-family: "poppins",sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: repeating-linear-gradient(#000, #9e00ff 111vh);
+    background: repeating-linear-gradient(#0b0b0b, #282e7b 111vh);
     background-size: 150% 150%;
 }   
 
@@ -45,8 +45,8 @@ body{
 }
 
 .cabecalho .menu li a:hover{
-    background-color:#611e97;
-    color: #fff;
+    border:2px solid#9443d8;
+    color: #9443d8;
 }
 
 .home{
@@ -96,8 +96,8 @@ body{
 }
 
 .home .redes-sociais a i:hover{
-    color: #0f0f0f;
-    border: 2px solid #000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
     transform: scale(1.1);
 }
 
@@ -113,7 +113,7 @@ body{
 }
 
 .home .foto.sombra-interna{
-    background: linear-gradient(555deg, #b51a91,#1ef2ee);
+    background: linear-gradient(555deg, #901247,#1ef2ee);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -186,8 +186,8 @@ body{
     border: 1px solid #fff;
     border-radius: 15px;
     color: #fff;
-    width: 180px; 
-    padding: 20px;
+    width: 160px; 
+    padding: 18px;
     font-size: 18px;
     font-weight: 600;
     margin:0 auto;
@@ -198,8 +198,8 @@ body{
 }
 
 .projetos .btn-mostrar-projetos:hover{
-    background-color: #9443d8;
     transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .projetos .btn-mostrar-projetos.remover{
