@@ -31,8 +31,9 @@ body{
 }
 
 .cabecalho a:hover .logo{
-    color: #9443d8;
-    border: 2px solid #9443d8;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transform: scale(1.1);
 }
 
 .cabecalho .menu li a{
@@ -45,8 +46,9 @@ body{
 }
 
 .cabecalho .menu li a:hover{
-    border:2px solid#9443d8;
-    color: #9443d8;
+    border:2px solid#ffffff;
+    color: #ffffff;
+   
 }
 
 .home{
