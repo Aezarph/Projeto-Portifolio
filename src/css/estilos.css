@@ -25,7 +25,7 @@ body{
     border: 2px solid #fff;
     text-decoration: underline;
     text-align: center;
-    line-height: 55px;
+    line-height: 56px;
     font-family: "cormorant garamond";
     font-weight: 600;
     transition: 0.2s;
@@ -61,7 +61,7 @@ body{
 
 .home .informacoes{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 15px;
     letter-spacing: 1px;
     padding: 0 15px;
@@ -104,7 +104,7 @@ body{
     transform: scale(1.1);
 }
 
-.home .container-foto .foto{
+.home .container-foto .sombra-interna{
     max-width: 450px;
     max-height: 437px;
     border-radius: 50%;
@@ -115,10 +115,9 @@ body{
     border-radius: 50%;   
 }
 
-.home .foto.sombra-interna{
+.home .container-foto .sombra-interna{
     background: linear-gradient(555deg, #901247,#1ef2ee);
     background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
 }
 
 .projetos{
@@ -207,16 +206,4 @@ body{
 
 .projetos .btn-mostrar-projetos.remover{
     display: none;
-}
-
-/*@keyframes gradient-animation{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
 }
