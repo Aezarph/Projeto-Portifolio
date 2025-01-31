@@ -7,7 +7,7 @@ body{
     font-family: "poppins",sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: repeating-linear-gradient(#0b0b0b, #7b09b0 111vh);
+    background: repeating-linear-gradient(#0b0b0b, #7b09b0 33%);
     background-size: 150% 150%;
 }   
 
@@ -70,7 +70,7 @@ body{
 
 .home .informacoes h1{
     font-family: "raleway", sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 15px;
     height: 45px;
 }
