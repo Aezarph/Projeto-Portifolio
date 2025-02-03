@@ -37,11 +37,8 @@
         max-width: 320px;
     }
 
-    .projetos{
+    .projetos {
         padding: 30px;
-        background:linear-gradient(#0b0b0b, #7b09b0 20%) no-repeat;
-        background-size: 100% 100%;
-
     }
 
 }

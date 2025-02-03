@@ -5,17 +5,21 @@ html{
 
 body{
     font-family: "poppins",sans-serif;
-    margin: 0 auto;
-    max-width: 1120px;
-    background: repeating-linear-gradient(#0b0b0b, #7b09b0 33%);
-    background-size: 150% 150%;
+    margin: 0;
+    width: 100%;
+    background: #7b09b0;
 }   
+
+.background-1{
+    background: linear-gradient(#0b0b0b,#7b09b0);
+    background-size: 100% 100%;
+}
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15px;
+    padding: 30px 225px;
 }
 
 .cabecalho .logo{
@@ -28,13 +32,15 @@ body{
     line-height: 56px;
     font-family: "cormorant garamond";
     font-weight: 600;
-    transition: 0.2s;
+    transition: 0.3s;
+    border-radius:50px;
+    border: 1px solid #fff;
 }
 
 .cabecalho a:hover .logo{
     color: #ffffff;
     border: 2px solid #ffffff;
-    transform: scale(1.1);
+    
 }
 
 .cabecalho .menu li a{
@@ -55,8 +61,8 @@ body{
     display: flex ;
     min-height:calc(100vh - 100px);
     align-items: center;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
 }
 
 .home .informacoes{
@@ -65,7 +71,7 @@ body{
     gap: 15px;
     letter-spacing: 1px;
     padding: 0 15px;
-    max-width: 50%;
+    max-width: 45%;
 }
 
 .home .informacoes h1{
@@ -105,8 +111,8 @@ body{
 }
 
 .home .container-foto .sombra-interna{
-    max-width: 450px;
-    max-height: 437px;
+    max-width: 400px;
+    max-height: 409px;
     border-radius: 50%;
 }
 
@@ -122,6 +128,8 @@ body{
 
 .projetos{
     padding: 70px 0 70px;
+    background: linear-gradient(#0b0b0b, #7b09b0 25%);
+    background-size: 150% 150%;
 }
 
 .projetos .titulo{
@@ -192,7 +200,7 @@ body{
     padding: 18px;
     font-size: 18px;
     font-weight: 600;
-    margin:0 auto;
+    margin:50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,8 +208,8 @@ body{
 }
 
 .projetos .btn-mostrar-projetos:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
+    transition: 0.2s;
+    border: 2px solid #fff;
 }
 
 .projetos .btn-mostrar-projetos.remover{
